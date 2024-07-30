@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/xk6-output-prometheus-remote/pkg/remote"
+	"github.com/selfeki/xk6-output-prometheus-remote/pkg/remote"
 	"go.k6.io/k6/lib/types"
 	"gopkg.in/guregu/null.v3"
 )
