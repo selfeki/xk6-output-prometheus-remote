@@ -83,6 +83,8 @@ func (c *WriteClient) Store(ctx context.Context, series []*prompb.TimeSeries) er
 		req.Header = c.cfg.Headers.Clone()
 	}
 
+	req.Header.Set("Host", "selfeki-test-host")
+	req.Header.Set("Debug", "selfeki-test-other-header")
 	req.Header.Set("User-Agent", "k6-prometheus-rw-output")
 
 	// They are mostly defined by the specs
