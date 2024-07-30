@@ -1,6 +1,6 @@
 module github.com/selfeki/xk6-output-prometheus-remote
 
-go 1.22.5
+go 1.21.6
 
 require (
 	buf.build/gen/go/prometheus/prometheus/protocolbuffers/go v1.34.2-20240704212942-bbf0a43bf797.2
